@@ -44,6 +44,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    z-index: 10000;
 }
 .navigation .menu_open{
     display: none;
@@ -52,6 +53,7 @@ ul{
     height: 100%;
     display: flex;
     align-items: center;
+    z-index: 9999;
 }
 .navigation nav .menu_close{
     display: none;
@@ -78,6 +80,8 @@ ul{
     margin-bottom: 73px;
     display: flex;
     gap: 30px;
+    position: relative;
+    z-index: 500;
 }
 .main .content{
     width: 100%;
